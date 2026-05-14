@@ -12,17 +12,7 @@
      <h1>Calificaciones en Cursos</h1>
     <h2>Calificaciones de {{ estudiante.nombre }}</h2>
     
-    {% for calificacion in estudiante.calificaciones %}
-        <div class="card" style="width: 18rem;">
-            <img src="https://1000logos.net/wp-content/uploads/2021/08/Google-Classroom-Logo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">{{ calificacion.curso.nombre }}</h5>
-                <p class="card-text">{{ calificacion.valor }}</p>
-                <a href="/" class="btn btn-primary">Regresar</a>
-            </div>
-        </div>
-        <br />
-    {% endfor %}
+   
     
    
     <div class="container text-center">
